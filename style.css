@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation img {
+    float: left;
+    width: 200px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.section1{
+    background-image: url(./images/drew-coffman-1872.jpg);
+    height: 800px;
+    background-size:cover ;
+    background-position: center center;
+    display: inline-block; 
+    width: 100%;
+}
+
+header {
+    padding: 20px 20px; 
+    margin: auto;
+    width: 90%;
+    position:absolute;
+}
+
+.intro {
+    color: white;
+    text-align: center;
+    width:700px;
+    margin: auto;
+    margin-top: 300px;
+
+}
+
+.intro p {
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+.intro h1 {
+font-size: 50px;
+padding-bottom: 20px;
+}
+
+.intro button {
+    padding: 20px 20px ;
+    cursor: pointer;
+    color: white;
+}
+
+.btn1 {
+    background-color:#8e7754;;
+    border-radius: 10px 10px;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: #151515;
+}
+
+.btn2 {
+    background-color: transparent;
+    border-radius: 10px 10px;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: #151515;
+}
+
+.section2 {
+    margin-top: 20px;
+}
+
+.right {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+ h4 {
+    margin-bottom: 20px;
+}
+
+.right p {
+    margin-bottom: 20px;
+}
+
+
+.left {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+
+.left p {
+    margin-block: 30px;
+}
+
+.sec {
+    background-color: lightgray;
+}
+
+
+.clear-fix{
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+.all-text {
+    padding: 100px 40px 100px 40px;
+}
+
+.activity {
+    margin-block: 20px;
+}
+
+.activity img {
+    border: solid 2px #8f7755;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.activity p {
+display: inline-block;
+vertical-align: 50%;
+margin-bottom: 20px;
+}
+
+.head {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section3{
+    padding: 100px 0 100px 0;
+}
+
+.section3 h4 {
+    padding: 20px 0 20px 0;
+}
+
+.products {
+padding: 0 30px 0 30px;
+}
+
+.product {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.product >div {
+padding: 0 20px 40px 20px;
+}
+
+.product h4 {
+    padding: 20px 0 20px 0;
+}
+
+.contact p {
+    display: inline-block;
+    vertical-align: 50%;
+}
+
+.contact {
+    padding: 10px 0 10px 0;
+}
+
+.icon-img {
+    width: 36px;
+}
+
+.section4 {
+    padding: 64px 64px 64px 64px;
+    background-color: rgb(240, 238, 238);
+}
+
+.colored-img {
+    background-color: #8e7754;
+    border-radius: 50%;
+}
+
+.img-text h4 {
+    padding: 20px 0 20px 0;
+}
+
+.text {
+    padding: 20px 0 20px 0;
+}
+
+.center-inline{
+text-align: center;
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: 50%;
+}
+
+.footer-up > div {
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+
+.footer-up {
+    background-color: #353330;
+    padding: 100px 20px 100px 20px;
+    color: lightgrey;
+}
+
+.footer-img {
+    background-image: url(./images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: right center ;
+}
+
+.footer-up ul {
+    list-style: none;
+}
+
+.footer-item {
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-item p {
+    width:80% ;
+    border-bottom-color: rgb(136, 131, 131);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+
+.footer-up h4 {
+    color: white;
+    padding: 20px;
+}
+
+.about p {
+    padding: 20px 0 20px 0;
+}
+.small-icon {
+    width: 20px;
+    vertical-align: top;
+}
+
+.big-icon {
+    width: 30px;
+    vertical-align: top;
+}
+
+.footer-down {
+    background-color: #151515;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.footer-down p {
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.footer-icon {
+    display: inline-block;
+    background-color: #353330;
+    border-radius: 50%;
+}
+
+
